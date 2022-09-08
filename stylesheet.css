@@ -1,0 +1,164 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.9;
+    flex-grow: 1;}
+
+section {
+    margin-top: 50px;
+}
+
+#logo-container{
+    display: inline-flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 0;
+}
+
+#logo-container img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+#nav {
+  
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;  
+    
+}
+
+#nav ul li {
+    display: inline-flex;
+    padding: 0 5px;
+    margin-right: 5px;
+    justify-content: baseline;
+    flex-shrink: 1;
+    align-items: right;
+    
+
+}
+
+#nav ul li a {
+    display: inline-flex;
+    color: seashell;
+    text-decoration: underline;
+
+}
+
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 700px;
+    background: url("../teacozyproject/images/img-mission-background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#banner{
+    width: 1200px;
+    background-color: black;
+    padding: 10px 0;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+  h4 .steeping{
+    padding: 5px;
+    text-align: center;
+    display: inline-flex;
+  }
+
+.container{
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea img{
+    height: 200px;
+    width: 300px;
+    padding: 10px 15px;
+    
+}
+
+.locationbanner{
+    display: inline-flex;
+    flex-direction: column;
+    background-image: url(../teacozyproject/images/img-locations-background.jpeg);
+    min-height: 500px;
+    max-width: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: fr;
+
+}
+
+.locationheader{
+    font-size: 43px;
+    font-weight: bold;
+}
+
+
+
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 275px;
+    background-color: black;
+    opacity: 1;
+    margin: 15px 20px;
+  
+}
+
+footer{
+    display:block;
+    float: left;
+    padding-left: 20px;
+}
+
+.texttop{
+display: inline-flex;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
