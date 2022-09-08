@@ -113,7 +113,7 @@ section {
 .locationbanner{
     display: inline-flex;
     flex-direction: column;
-    background-image: url(image-locations-background.jpeg);
+    background-image: url(img-locations-background.jpeg);
     min-height: 500px;
     max-width: 1200px;
     background-size: cover;
